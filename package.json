@@ -1,0 +1,18 @@
+{
+  "name": "electron_update_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "gabriel-bassani",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "nodemon": "^2.0.15"
+  }
+}
